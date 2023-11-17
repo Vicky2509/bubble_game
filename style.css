@@ -1,11 +1,75 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family:;
-};
- 
-html, body {
-height: 100%;
-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(151, 197, 181);
+  height: 100%;
+  width: 100%;
+}
+#pannel {
+  border-radius: 12px;
+  height: 70%;
+  width: 80%;
+  background-color: white;
+  overflow: hidden;
+}
+#pannelTop {
+  padding: 0px 20%;
+  background-color: rgb(72, 159, 129);
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+.elem {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+}
+.box {
+  padding: 8px 13px;
+  background-color: white;
+  border-radius: 5px;
+  color: rgba(5, 62, 48, 0.909);
+  font-weight: 600;
+  font-size: 20px;
+  background-color: rgb(203, 242, 229);
+}
+#pannelButtom{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 100px);
+    /* background-color: yellowgreen; */
+}
+.bubble{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    font-weight: 600px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+}
+.bubble:hover{
+    background-color: rgb(104, 139, 33);
 }
