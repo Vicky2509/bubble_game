@@ -1,6 +1,6 @@
 var bubbleVal;
 var hitBubble;
-var timer = 10;
+var timer = 60;
 var score = 0;
 
 function makeBubble() {
